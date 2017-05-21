@@ -1,0 +1,2 @@
+baseurl: /bike
+exclude: ['README.md']
