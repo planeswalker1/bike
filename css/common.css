@@ -1,0 +1,32 @@
+body {
+  font: normal 100%/1.4 Georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.current {
+  background-color: #8f746c;
+  color: #fff;
+}
+
+/*nav styles*/
+
+nav .nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-top {
+  font-size: 1.25rem;
+}
