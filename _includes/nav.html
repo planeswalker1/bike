@@ -1,5 +1,5 @@
-<nav>
-  <ul class="nav {{include.navclass}}">
+<nav class="header">
+  <ul class="nav">
     <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Bikes</a></li>
     <li><a href="#">Best Buy</a></li>
     <li><a href="#">Offers</a></li>
@@ -7,4 +7,17 @@
     <li><a href="#">Contact</a></li>
     <li><a href="#">About Us</a></li>
   </ul>
+  <p id="show" class="responsive-open show">MENU</p>
 </nav>
+
+<div id="responsive" class="responsive">
+  <p class="responsive-open">Close X</p>
+  <ul class="nav">
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Bikes</a></li>
+    <li><a href="#">Best Buy</a></li>
+    <li><a href="#">Offers</a></li>
+    <li><a href="#">Accessories</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">About Us</a></li>
+  </ul>
+</div>
