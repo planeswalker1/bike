@@ -4,22 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bikes</title>
+  <title>Bike!</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
 </head>
 <body>
-  <header>
-    <strong>Bikes</strong>
-    <nav>
-      <ul>
-        <li><a href="#">Bikes</a></li>
-        <li><a href="#">Best Buy</a></li>
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Accessories</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">About Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  {{content}}
+  <div class="container">
+    {% include nav.html%}
+
+    {{content}}
+
+    {% include footer.html%}
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
