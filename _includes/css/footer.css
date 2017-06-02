@@ -1,0 +1,10 @@
+/*footer styles*/
+footer .copy {
+  margin-bottom: 0;
+  text-align: right;
+  padding-right: 3%;
+}
+
+footer img {
+  width: 100%;
+}
