@@ -1,0 +1,31 @@
+/*bike styles*/
+.bike-container {
+  text-align: center;
+}
+
+.bike-name {
+  margin-bottom: 0;
+}
+
+.bike-price {
+  display: block;
+  font-size: 4em;
+}
+
+.button {
+    display: block;
+    color: #8f746c;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #8f746c;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.button:hover {
+    background: #8f746c;
+    color: #fff;
+    cursor: pointer;
+}
