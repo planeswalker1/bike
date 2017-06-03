@@ -3,4 +3,5 @@
 
 {% include css/common.css %}
 {% include css/nav.css %}
+{% include css/bike.css %}
 {% include css/footer.css %}
