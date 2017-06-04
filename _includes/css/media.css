@@ -1,0 +1,45 @@
+/*media queries*/
+@media screen and (min-width: 768px) {
+
+  nav .nav {
+    display: flex;
+    justify-content:flex-end;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  nav.header {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav li {
+    margin: 1% 0;
+  }
+
+  nav #show {
+    cursor: pointer;
+    display: block;
+    letter-spacing: 2px;
+    margin: 5%;
+    text-align: right;
+  }
+
+
+  .bike-img {
+    width: 50%;
+  }
+
+}
