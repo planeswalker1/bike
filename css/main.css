@@ -2,6 +2,7 @@
 ---
 
 {% include css/common.css %}
+{% include css/media.css %}
 {% include css/nav.css %}
 {% include css/bike.css %}
 {% include css/footer.css %}
